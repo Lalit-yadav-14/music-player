@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Matemasie&display=swap');
+@import url('https://fontawesome.com/');
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Jersey 10';
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+
+}
+
+nav ul li {
+    padding: 10px;
+    /* margin: 100px; */
+}
+
+.brand img {
+    width: 73px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    /* margin: 10px; */
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    height: 600px;
+    /* background-color: rgb(9, 9, 9); */
+    color: rgb(238, 234, 234);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90vw;
+    margin: 30px 60px;
+    /* margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 80px;
+    margin-bottom: 80px; */
+    border-radius: 8px;
+    /* padding-left: 15px; */
+    /* padding-top: 8px; */
+    background-image: url("backimg2.jpg");
+    background-image: image-set();
+}
+
+.bottom {
+    position: sticky;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    width: 100vw;
+    bottom: 0;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+
+}
+
+
+#myprogressbar {
+    cursor: pointer;
+    width: 80vw;
+    align-content: center;
+}
+
+.icon{
+    margin-top: 10px;
+}
+.icon i{
+    cursor: pointer;
+}
+#play{
+    margin: 10px;
+}
+.songItem{
+    font-size: 14px;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(247, 249, 250);
+    /* padding: 5px; */
+    color: black;
+    margin: 8px;
+    /* margin-right: 8px; */
+    /* width: 25vw; */
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.songItem img{
+    margin: 5px;
+ height: 50px;
+ border-radius: 5px;
+}
+.playb{
+    margin: 0 5px;
+}
+.timestamp{
+    margin: 0 5px;
+}
+.timestamp i{
+    cursor: pointer;
+    position: sticky;
+     /* display: flex;  */
+    flex-direction:center;
+    align-items:start;; 
+}
+h1{
+    margin-bottom: 50px;
+}
+.songinfo{
+    font-family:'areal';
+    position: absolute;
+    left: 9vw;
+    display: flex;
+    align-items: baseline;
+    margin: 10px;
+}
+.songinfo img{
+    margin-right: 10px;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+/* .songlistplay{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+} */
+ /* .songItemplay{
+    display: flex;
+    flex-direction: row; */
+
+ /* } */
